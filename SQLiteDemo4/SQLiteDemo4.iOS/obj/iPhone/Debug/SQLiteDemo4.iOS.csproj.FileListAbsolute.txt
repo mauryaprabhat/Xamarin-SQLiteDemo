@@ -1,0 +1,6 @@
+D:\sqlilite\SQLiteDemo4\SQLiteDemo4\SQLiteDemo4.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\sqlilite\SQLiteDemo4\SQLiteDemo4\SQLiteDemo4.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\sqlilite\SQLiteDemo4\SQLiteDemo4\SQLiteDemo4.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\sqlilite\SQLiteDemo4\SQLiteDemo4\SQLiteDemo4.iOS\obj\iPhone\Debug\optimized\
+D:\sqlilite\SQLiteDemo4\SQLiteDemo4\SQLiteDemo4.iOS\obj\iPhone\Debug\SQLiteDemo4.iOS.csprojResolveAssemblyReference.cache
+D:\sqlilite\SQLiteDemo4\SQLiteDemo4\SQLiteDemo4.iOS\obj\iPhone\Debug\SQLiteDemo4.iOS.csproj.CoreCompileInputs.cache

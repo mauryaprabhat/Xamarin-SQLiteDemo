@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo4.StudentRegister"
+             Title="Student Details"
+             BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin Forms!" HorizontalOptions="Center" />
+            <Label x:Name="Name"/>
+            <Entry x:Name="name" Placeholder="Enter name"/>
+            <Label Text="Address" />
+            <Entry x:Name="address"  Placeholder="Enter address" />
+            <Label Text="Phone no" />
+            <Entry x:Name="phone" Placeholder="Enter phone number!"/>
+            <Button Text="Add" Clicked="AddStudent_Clicked"/>
+            <Button Text="Show" Clicked="ShowStudent_Clicked"/>
+            <Button Text="DeleteAll" Clicked="DeleteAll_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

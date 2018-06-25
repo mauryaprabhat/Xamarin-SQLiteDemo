@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo4.StudentList"
+             Title="List of Student"
+             BackgroundImage="background.jpg">
+    <ContentPage.Content>
+        <!--<StackLayout>
+            <Label Text="Welcome to Xamarin Forms!" />
+            
+        </StackLayout>-->
+
+        <ListView x:Name="studentListView" IsVisible="True" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" HeightRequest="50" Padding="10" BackgroundColor="#4286f4" >
+                            <Grid BackgroundColor="#4286f4">
+                                <StackLayout Orientation="Horizontal">
+
+                                    <Label Text="{Binding StudentName}" TextColor="White" Font="20" />
+                                    <Label Text="{Binding Address}" TextColor="White" Font="20" />
+                                    <Label Text="{Binding Phone}" TextColor="White" Font="20" />
+
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </ContentPage.Content>
+</ContentPage>
